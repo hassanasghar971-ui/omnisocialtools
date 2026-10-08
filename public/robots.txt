@@ -1,0 +1,35 @@
+# OmniSocialTools — robots.txt
+# Owner: Hassan Asghar | Sargodha, Pakistan
+# Site: https://omnisocialtools.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /*.json$
+
+# Google primary crawler
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+# Google AdSense verification crawler — MUST be allowed for monetization
+User-agent: Mediapartners-Google
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Adsterra / generic ad verification bots
+User-agent: AdsBot-Google
+Allow: /
+
+Host: https://omnisocialtools.com
+Sitemap: https://omnisocialtools.com/sitemap.xml
