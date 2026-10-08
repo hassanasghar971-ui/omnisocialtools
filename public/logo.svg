@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OmniSocialTools Logo">
+  <title>OmniSocialTools</title>
+  <defs>
+    <linearGradient id="ostGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="ostInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#ostGradient)"/>
+  <circle cx="180" cy="190" r="56" fill="url(#ostInner)"/>
+  <circle cx="340" cy="190" r="56" fill="url(#ostInner)" fill-opacity="0.85"/>
+  <circle cx="260" cy="330" r="70" fill="url(#ostInner)" fill-opacity="0.95"/>
+  <path d="M180 246 L240 300" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <path d="M340 246 L285 300" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="260" cy="330" r="22" fill="#2563eb"/>
+</svg>
